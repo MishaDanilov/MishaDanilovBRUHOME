@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(248,249,251);
+    line-height: 25px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+.header{
+    background-color: rgb(247,247,247);
+    padding: 20px;
+    border-bottom: rgb(210,210,210) 1px solid;
+    position: sticky;
+    top: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: inline-block;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    margin-right: 10%;
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:link{
+    color:rgb(59, 35, 197);
+}
+
+a:visited{
+    color:rgb(190, 24, 24);
+}
+a:hover{
+    font-size: 24px;
+}
+
+.section_main{
+    margin: 0 10% 0 10%;
+    background-color: white;
+
+}
+.container{
+    margin-top: 20px;
+    padding: 80px 40px 0 40px;
+    border: 1px solid ;
+    border-radius: 4px;
+    
+}
+.text{
+    font-family: "Times New Roman";
+    font-style: italic;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 10px;
+}
+.text:hover{
+    color: deepskyblue;
+}
+.text_second{
+    word-spacing: .35em;
+    margin-bottom: 40px;
+    border: 1px solid ;
+    border-radius: 4px;
+    padding: 10px;
+}
+.text h3{
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    color: black;
+    text-align: left;
+}
+.text h3:hover{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.right_form{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.info{
+    font-family: "serif";
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 6px 2px rgba(0, 0, 0, .3);
+    border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+.info img{
+    border-radius: 50%;
+    height: 130px;
+    margin: -100px 0 0 0;
+}
+.info ol li{
+    list-style: none;
+    
+}
+.info ol li:hover{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.list{
+    padding: 0 0 20px 20px;
+}
+.list ul li:hover{
+    font-size: large;
+    color: deepskyblue;
+}
+
+.pear ol li:hover{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.pear h3:hover{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+.banana ol li:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.banana h3:hover{
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+}
+.orange ol li:hover{
+    color: rgb(230, 93, 14);
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.orange h3:hover{
+    color: rgb(230, 93, 14);;
+    font-weight: bold;
+    font-size: 30px;
+}
