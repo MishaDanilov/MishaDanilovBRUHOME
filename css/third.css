@@ -1,0 +1,56 @@
+.container-third{
+    margin: 100px 50px 100px 50px;
+    background-color:white;
+}
+
+.col-img{
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.img1{
+    background-image: url('../img/col1.jpg');
+}
+.img2{
+    background-image: url('../img/col2.jpg');
+}
+.img3{
+    background-image: url('../img/col3.jpg');
+}
+.img4{
+    background-image: url('../img/col4.jpg');
+}
+.img5{
+    background-image: url('../img/col5.jpg');
+}
+.col_text{
+    padding: 40px;
+}
+.col_text h3{
+    color: rgb(13,13,13);
+    font-weight: 500;
+}
+.col_text p{
+    color: rgb(127,127,127);
+}
+.col_text button p{
+    color: white;
+    padding: 0 20px 0 20px;
+    font-size: 16px;
+}
+.col_text button{
+    background-color: rgb(113,188,66);
+    border: 0px;
+    cursor: pointer;
+    transition: .3s;
+}
+.col_text button:hover{
+    background-color: rgb(100,167,58);
+}
+.col{
+    transition: .4s;
+}
+.col:hover{
+    box-shadow: 1px 1px 20px rgb(238,238,238);
+}
