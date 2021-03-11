@@ -1,0 +1,120 @@
+.container-fourth{
+    margin: 250px 0 0 0;
+    height: 2200px;
+}
+.center-third-flex{
+    display: flex;
+    justify-content:space-between;
+    justify-content: center;
+}
+.img_fourth{
+    height: 500px;
+    background-size:contain;
+    opacity: 1;
+}
+.numbers-flex{
+    padding-left: 55px;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.numbers_one{
+    margin-right: 180px;
+    max-width: 90px;
+}
+.numbers_one p{
+    color: rgb(127,127,127);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.numbers_two p{
+    color: rgb(127,127,127);
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.number{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 60px;
+    color: rgb(113,188,66) !important;
+}
+.text_fourth{
+    padding-top: 0;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+.text_fourth h2::before {
+    top: 45px;
+    bottom: 0;
+    right: 320px;
+    left: 0px;
+}
+.text_fourth2{
+    padding-bottom: 0px;
+}
+.content_third1{
+    padding-left: 80px;
+}
+.text_fifth{
+    margin-top: 250px;
+    opacity: 1;
+}
+.text_fifth_opacity{
+    opacity: 0;
+}
+.text_fifth h2{
+    font-weight: 500;
+}
+.text_fifth h2::before{
+    opacity: 1;
+    left: 550px;
+    right: 550px;
+
+}
+.img-fluid{
+    border-radius: 50%;
+    width: 70px;
+}
+.col-fluid{
+    text-align: center;
+}
+.col-fluid h2{
+    font-size: 18px;
+    font-weight: 100px;
+}
+.col-fluid blockquote{
+    font-size: 22px;
+    font-weight: 100px;
+    color: rgb(188,188,188);
+}
+.contain-last-flex{
+    margin-top: 280px;
+}
+.last-flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    
+}
+.col_text{
+    padding-top: 10px;
+}
+.col_text h3{
+    color: rgb(113,188,66);
+    font-size: 22px;
+    font-weight: 400;
+}
+.col_text p{
+    color: rgb(127,127,127);
+    line-height: 30px;
+}
+.last-flex-col{
+    margin: 20px;
+    opacity: 0;
+}
+.last-flex-col:hover{
+    box-shadow: 1px 1px 20px rgb(238,238,238);
+}
+.flex-col-img{
+    background-size: cover;
+}
