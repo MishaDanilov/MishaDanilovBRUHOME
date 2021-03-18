@@ -1,0 +1,20 @@
+@media (max-width: 768px){
+    .box-right{
+        width: auto;
+        flex-direction: column;
+    }
+    .box-right-skills{
+        width: 100%;
+    }
+    .section2-left{
+        flex-direction: column;
+        height: auto;
+    }
+    .section2-right{
+        flex-direction: column;
+        height: auto;
+    }
+    .col{
+        width: 100%;
+    }
+}

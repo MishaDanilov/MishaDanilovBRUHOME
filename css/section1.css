@@ -1,0 +1,98 @@
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+.box-left{
+    width: 50%;
+    background-color: white;
+    height: 440px;
+}
+.box-left-text{
+    margin: 30px 60px 30px 60px;
+}
+.box-left-text h1{
+    font-weight: 300;
+    font-size: 50px;
+}
+.box-left-text p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(181,187,194);
+}
+.box-left-text #p1{
+    margin-bottom: 50px;
+    color: rgb(228,174,88);
+}
+.box-right{
+    display: flex;
+    background-color: rgb(228,174,88);
+    flex-direction: row;
+    width: 50%;
+    height: 440px;
+}
+.box-right-img{
+    background-image: url("../img/about-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+.box-right-skills{
+    width: 50%;
+}
+.box-right-content{
+    margin: 30px 30px 30px 40px;
+}
+.box-right-content h1{
+    font-weight: 300;
+    font-size: 50px;
+    color: white;
+}
+.box-right-content p{
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+}
+.skills{
+    margin-top: 0px;
+}
+.skills-content{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-content p{
+    margin-bottom: 4px;
+}
+.indicator{
+    display: flex;
+}
+.indicator1 .part1{
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+.indicator1 .part2{
+    width: 10%;
+    height: 3px;
+    background-color: white;
+}
+.indicator2 .part1{
+    width: 70%;
+    height: 3px;
+    background-color: black;
+}
+.indicator2 .part2{
+    width: 30%;
+    height: 3px;
+    background-color: white;
+}
+.indicator3 .part1{
+    width: 80%;
+    height: 3px;
+    background-color: black;
+}
+.indicator3 .part2{
+    width: 20%;
+    height: 3px;
+    background-color: white;
+}

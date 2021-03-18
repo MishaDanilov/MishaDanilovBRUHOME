@@ -1,0 +1,34 @@
+.section5-content{
+    height: 440px;
+    background-image: url("../img/quotes-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section5-outside-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.section5-outside-content-text{
+    text-align: center;
+    position: absolute;
+    color: white;
+}
+.section5-outside-content-text i{
+    font-size: 50px;
+}
+.section5-outside-content-text h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 70px;
+}
+.section5-outside-content-text p{
+    color: rgb(150,150,150);
+    font-size: 20px;
+}
