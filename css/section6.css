@@ -1,0 +1,110 @@
+.section6{
+    display: flex;
+    flex-direction: row;
+}
+.section6-left{
+    background-color: rgb(233,113,76);
+    width: 50%;
+    height: 700px;
+}
+.section6-right{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.section6-right-content-img{
+    width: 50%;
+    background-image: url("../img/contact-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section6-right-content{
+    width: 50%;
+    background-color: rgb(22,22,22);
+}
+.section6-left-content{
+    padding: 30px 50px 30px 50px;
+}
+.section6-left-content h1{
+    color: rgb(252,220,186);
+    font-weight: 300;
+    font-size: 40px;
+}
+.section6-left-content p{
+    color: rgb(252,220,186);
+    font-size: 18px;
+}
+.section6-left-content input{
+    display: block;
+    background-color: rgb(233,113,76);
+    color: white;
+    width: 95%;
+    padding: 20px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(231,164,88);
+    margin-bottom: 30px;
+}
+.section6-left-content textarea{
+    background-color: rgb(233,113,76);
+    width: 95%;
+    height: 150px;
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(231,164,88);
+    margin-bottom: 30px;
+    resize: none;
+}
+.section6-left-content button{
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 12px 130px 12px 130px;
+    margin-left: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.section6-left-content textarea::placeholder{
+    font-size: 20px;
+    color: rgb(252,220,186);
+
+}
+.section6-left-content input::placeholder{
+    font-size: 20px;
+    color: rgb(252,220,186);
+    
+}
+.section6-right-content-info{
+    padding: 30px 0px 30px 50px;
+}
+.section6-right-content-info h1{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+.section6-right-content-info p{
+    color: rgb(100, 100, 100);
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+.section6-right-content-info ul li{
+    font-size: 17px;
+    margin: 15px 0 15px 0;
+    list-style-type: none;
+}
+.section6-right-content-info ul li i{
+    padding-right: 10px;
+    color: rgb(100, 100, 100);
+}
+.section6-right-content-info ul{
+    padding: 0;
+}

@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content p{
+    margin-bottom: 50px;
+}
+.footer-content i{
+    margin-right: 40px;
+}
